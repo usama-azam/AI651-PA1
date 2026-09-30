@@ -1,0 +1,20 @@
+{
+ "version": "v1",
+ "config": "log1p target, external=full+roll, d_model=32, 1+1 layers",
+ "epochs_per_member": 15,
+ "seeds": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "P_trainable_parameters": 120645,
+ "E_training_epochs": 75,
+ "leaderboard": {
+  "RMSE": 99.0937,
+  "MAE": 63.5629,
+  "sMAPE_pct": 54.27,
+  "score": 99.1314
+ }
+}

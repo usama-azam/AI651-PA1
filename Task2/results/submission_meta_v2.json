@@ -1,0 +1,25 @@
+{
+ "version": "v2 (final)",
+ "config": "log1p target, external=full+roll, d_model=64, 1+1 layers, forecast x 1.2",
+ "epochs_per_member": 21,
+ "seeds": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "P_trainable_parameters": 446085,
+ "E_training_epochs": 105,
+ "validation_recent12_RMSE": {
+  "v2_leave_one_week_out": 63.27,
+  "v1_recipe": 66.67,
+  "naive_mean_last_168": 111.64
+ },
+ "leaderboard": {
+  "RMSE": 81.1122,
+  "MAE": 53.0061,
+  "sMAPE_pct": 49.94,
+  "score": 81.1656
+ }
+}
